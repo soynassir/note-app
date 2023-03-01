@@ -1,0 +1,107 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: rgb(60, 110, 192);
+}
+
+div#note-card {
+     width: 1100px;
+     height: 600px;
+     margin: 100px auto;
+     background-color: white;
+}
+
+header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+
+     box-shadow: 0px 2px 5px grey;
+}
+
+div#title-div {
+     margin-left: -640px;
+}
+
+h1 {
+     font-size: 16px;
+     font-family: Verdana, sans-serif;
+     font-weight: 400;
+     margin: 0;
+     color: rgb(78, 77, 77);
+}
+
+span {
+     font-size: 12px;
+     color: lightslategray;
+}
+
+/* Home icon */
+svg {
+     width: 35px;
+     height: 35px;
+     background: transparent;
+     fill: lightslategray;
+}
+
+svg:hover {
+     fill: black;
+     cursor: pointer;
+}
+
+input {
+     border: 1px solid transparent;
+     background-color: transparent;
+     color: rgb(104, 103, 103);
+     font-size: 14px;
+}
+
+input:hover {
+     border: 1px dashed blue;
+}
+/* Note title */
+/* 
+section {
+     border: 1px solid purple;
+}
+
+main {
+     border: 1px solid black;
+} */
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
