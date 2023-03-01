@@ -30,6 +30,7 @@ div#note-card {
      height: 600px;
      margin: 100px auto;
      background-color: white;
+     box-shadow: 10px 10px 50px rgb(26, 50, 90);
 }
 
 header {
@@ -79,28 +80,75 @@ input {
 }
 
 input:hover {
-     border: 1px dashed blue;
+     color: black;
+     border-bottom: 1px solid black;
 }
+
 /* Note title */
-/* 
+section#sec1 {
+     display: flex;
+     height: 545px;
+     width: 100%;
+     padding: 10px 10px 0 10px;
+     background-color: rgb(245, 245, 245);
+}
+
+section#nav-sec {
+     margin-right: 5px;
+}
+
 section {
-     border: 1px solid purple;
+     height: 100px;
+     width: 25%;
+     /* border: 1px solid green; */
 }
 
 main {
-     border: 1px solid black;
-} */
+     font-size: 14px;
+     width: 75%;
+     /* box-shadow: -1px -1px 5px gray; */
+     padding: 20px;
+     padding-right: 170px;
+}
+
+main, section#nav-sec {
+     height: 534px;
+     background-color: white;
+}
+
+div#might-div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-right: -150px;
+}
+
+#svg-div > svg {
+     height: 20px;
+     width: 20px;
+     display: flex;
+     justify-content: space-around;
+     margin: 8px;
+}
+
+#svg-div > svg {
+     fill:rgb(132, 132, 132);
+}
+
+#svg-div > svg:hover {
+     fill:rgb(2, 2, 2);
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+/* header {
 
 }
 
 footer {
 
-}
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
